@@ -78,13 +78,13 @@ _Recreate the ``geoff_goetz`` database using the following MySQL commands (in Te
 
 * USE geoff_goetz;
 
-* CREATE TABLE `stylist` (
+* CREATE TABLE `stylists` (
   `StylistId` int NOT NULL AUTO_INCREMENT,
   `StylistName` varchar(255) DEFAULT NULL,
   `StylistSpecialty` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`StylistId`));
 
-* CREATE TABLE `client` (
+* CREATE TABLE `clients` (
   `ClientId` int NOT NULL AUTO_INCREMENT,
   `ClientName` varchar(255) DEFAULT NULL,
   `StylistId` int DEFAULT '0',
