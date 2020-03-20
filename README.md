@@ -10,9 +10,12 @@ This program will allow a user to track stylists working in a hair salon as well
 
 ## Specifications:
 
-| Specification | Example Input | Example Output |
-|:-------------:|:-------------:|:--------------:|
-
+| Behavior | Example Input | Example Output |
+|:--------:|:-------------:|:--------------:|
+| Will allow user to add a stylist or add a client to a stylist  | User clicks to add a stylist | user taken to stylist input form |
+| User can add stylist to list of stylists | user inputs stylist name and specialty | stylist added to stylist list |
+| User can add client to a chosen stylist | user selects a stylist and adds client by name | client added to chosen stylist list |
+| User can view list of stylists with their specialties and list of clients| user selects stylist | stylist name and specialty are displayed with list of clients |
 
 ## Setup/Installation Requirements
 
