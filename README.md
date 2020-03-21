@@ -110,6 +110,7 @@ _To view/edit the source code of this application, open the contents of the Hair
 * _MySQL 8.0 CE_
 * _MySQL Workbench 8.0 CE_
 * _Entity Framework Core 2.2_
+* _Michelle Mornin README Template_
 
 ### License
 
