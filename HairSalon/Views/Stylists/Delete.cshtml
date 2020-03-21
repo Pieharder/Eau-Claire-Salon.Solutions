@@ -9,6 +9,7 @@
 @Html.DisplayNameFor(model => model.StylistName): @Html.DisplayFor(model => model.StylistName)
 @using (Html.BeginForm())
 {
-    <input type="submit" value="Delete" class="btn btn-dark" />
+    <input type="submit" value="Delete" class="btn btn-success" />
 }
-@Html.ActionLink("Back to stylists", "Index")
+
+@Html.ActionLink("Back to stylists", "Index", "Stylists", null,  new { @class = "btn btn-danger btn-large" })

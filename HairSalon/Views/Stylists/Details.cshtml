@@ -18,14 +18,16 @@
 
 @foreach (Client client in @Model.Clients)
 {
-  <li>Client: @client.ClientName</li>
+  <li>Clients: @client.ClientName</li>
 }
 </ul>
 
-<p>@Html.ActionLink("Add new client", "Create", "Clients")</p>
+<p>@Html.ActionLink("Add new client", "Create", "Clients", null,  new { @class = "btn btn-success btn-large" })</p>
 
-<p>@Html.ActionLink("Back to stylists", "Index")</p>
+<p>@Html.ActionLink("Show all clients", "Index", "Clients", null,  new { @class = "btn btn-info btn-large" })</p>
 
-<p>@Html.ActionLink("Edit Stylist", "Edit", "Stylists", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Back to stylists", "Index", "Stylists", null,  new { @class = "btn btn-warning btn-large" })</p>
 
-<p>@Html.ActionLink("Delete Stylist", "Delete", "Stylists", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Edit Stylist", "Edit", "Stylists", new { id = Model.StylistId },  new { @class = "btn btn-warning btn-large" })</p>
+
+<p>@Html.ActionLink("Delete Stylist", "Delete", "Stylists", new { id = Model.StylistId },  new { @class = "btn btn-danger btn-large" })</p>

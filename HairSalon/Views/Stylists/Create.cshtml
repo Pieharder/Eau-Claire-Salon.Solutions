@@ -11,6 +11,6 @@
     @Html.TextBoxFor(model => model.StylistName)
     @Html.LabelFor(model => model.StylistSpecialty)
     @Html.TextBoxFor(model => model.StylistSpecialty)
-    <input type="submit" value="Add new Stylist" class="btn btn-dark" />
+    <input type="submit" value="Add new Stylist" class="btn btn-success" />
 }
-<p>@Html.ActionLink("Show all Stylists", "Index")</p>
+<p>@Html.ActionLink("Show all Stylists", "Index", "Stylists", null,  new { @class = "btn btn-warning btn-large" })</p>

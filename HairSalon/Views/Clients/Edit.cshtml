@@ -18,7 +18,7 @@
     @Html.LabelFor(model => model.Stylist)
     @Html.DropDownList("StylistId")
 
-    <input type="submit" value="Save" class="btn btn-dark" />
+    <input type="submit" value="Save" class="btn btn-success" />
 }
 
-<p>@Html.ActionLink("Back to Clients", "Index")</p>
+<p>@Html.ActionLink("Back to Clients", "Index", "Clients", null,  new { @class = "btn btn-warning btn-large" })</p>

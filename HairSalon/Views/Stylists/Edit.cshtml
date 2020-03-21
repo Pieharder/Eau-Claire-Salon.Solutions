@@ -17,6 +17,6 @@
     @Html.LabelFor(model => model.StylistSpecialty)
     @Html.EditorFor(model => model.StylistSpecialty)
 
-    <input type="submit" value="Save" class="btn btn-dark" />
+    <input type="submit" value="Save" class="btn btn-success" />
 }
-<p>@Html.ActionLink("Back to stylists", "Index")</p>
+<p>@Html.ActionLink("Back to stylists", "Index", "Stylists", null,  new { @class = "btn btn-danger btn-large" })</p>
